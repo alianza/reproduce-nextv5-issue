@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply underline decoration-transparent transition-colors duration-300 ease-in-out hover:decoration-inherit hover:duration-100;
+}
+
+
+@media (hover: none) {
+    a {
+        @apply decoration-inherit;
+    }
+}
